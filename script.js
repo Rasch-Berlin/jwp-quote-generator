@@ -62,7 +62,7 @@ async function getQuotes() {
     }
 }
 
-// Tweet Quote
+// Tweet Quote, but as Twitter sucks, Bluesky Quote
 function tweetQuote() {
     // const twitterURL = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent}`;
     const twitterURL = `https://bsky.app/intent/compose?text=${quoteText.textContent} - ${authorText.textContent}`;
